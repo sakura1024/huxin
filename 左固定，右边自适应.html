@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+	</head>
+	<body>
+		<!--法二-->
+		<div style="display: inline-block;">
+			<img src="img/1.jpg" style="float: left;"/>
+			<p style="display: table-cell;padding-left: 20px;">本例中，外层div使用了display:inline-block;来清楚浮动。左侧为头像，右侧内容自适应。其中头像部分使用了float属性，左浮动，IE8+以及Firefox、Chrome、Opera等现代浏览器右侧使用了display:table-cell属性，结果就自适应了，很简单的代码，很神奇的效果。</p>
+		</div>
+		<!--法三-->
+		<div class="outter">
+			<img src="img/1.jpg" style="float: left;"/>
+			<p style="padding-left: 340px;">本例中，左侧为头像，右侧内容自适应。其中头像部分使用了float属性，左浮动，结果就自适应了，很简单的代码，很神奇的效果。</p>
+		</div>
+	</body>
+</html>
